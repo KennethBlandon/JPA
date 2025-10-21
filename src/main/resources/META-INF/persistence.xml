@@ -4,8 +4,9 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
              version="3.2">
     <persistence-unit name="org.hibernate.tutorial.jpa">
-        <class>entities.Libraria</class>
+        <class>entities.Autor</class>
         <class>entities.Libro</class>
+        <class>entities.Categoria</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bibliodb"/>
