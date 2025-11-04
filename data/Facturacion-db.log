@@ -1,16 +1,7 @@
-/*C5*/SET SCHEMA PUBLIC
+/*C4*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C6*/SET SCHEMA PUBLIC
-alter table Cliente add column codigoPostal integer
-alter table Cliente add column municipio varchar(20)
-alter table Cliente add column provincia varchar(30)
-alter table Cliente add column viaPublica varchar(30)
-INSERT INTO CLIENTE VALUES(1,'Kenneth Saul Blandon Larios',1001,'','','')
+/*C5*/SET SCHEMA PUBLIC
+INSERT INTO PRODUCTO VALUES(32,'df','37975F990A2440D30000000016CAD800','',NULL,NULL)
 COMMIT
-DELETE FROM CLIENTE WHERE NUMERO=1
-COMMIT
-INSERT INTO CLIENTE VALUES(1,'Kenneth Saul Blandon Larios',1001,'Cd. Sandino','Valentina','')
-COMMIT
-DELETE FROM CLIENTE WHERE NUMERO=1
-INSERT INTO CLIENTE VALUES(1,'Kenneth Saul Blandon Larios',1001,'Cd. Sandino','Valentina','Rotonda del gueguense 5c abajo')
+INSERT INTO CATEGORIA VALUES('8aa4c0539a3796be019a379792b60000','sd')
 COMMIT
